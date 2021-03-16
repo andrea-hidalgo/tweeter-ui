@@ -6,6 +6,39 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* Tweet.js Form CSS below....Kellie */
+.tweeter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  margin: auto;
+}
+.tweet_form {
+  padding-top: 30px;
+  justify-content: center;
+  display: flex;
+  
+  
+  
+}
+.tweet_form input {
+  border: none;
+}
+.text { 
+  cursor: text; 
+}
+.tweet_button {
+  height: 30px;
+  width: 50px;
+  display: inline-block;
+  border-radius: 12px;
+  background-color: #3399ff; /* twitter color  */
+  font-weight: 700;
+  color: white;
+  padding: 0;
+  border: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,6 +60,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,4 +1,5 @@
 import '../App.css';
+import TweetFeed from '../components/TweetFeed';
 
 function App() {
   return (
@@ -10,12 +11,13 @@ function App() {
         {/* Kellie - TweetFeed component */}
       </section>
       <section id="tweet-show-page-section">
+        <TweetFeed />
       </section>
       <section id="news-section">
         {/* Ryan - NewsFeed component*/}
       </section>
     </div>
-  );
+  )
 }
 
 export default App;
