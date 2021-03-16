@@ -1,8 +1,9 @@
-import { Route, BrowserRouter as Router } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About' ;
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import Home from '../pages/App';
+import About from '../pages/About' ;
 
-function App () {
+
+function NavBar () {
     return (
         <Router>
             <div className="container">
@@ -10,16 +11,28 @@ function App () {
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
+                    </li>    
+                    <li>
                         <Link to="/about">About the Goat Squad</Link>
+                    </li>
+                    <li>
                         <Link to="">Discover</Link>
+                    </li>
+                    <li>
                         <Link to="">Search</Link>
+                    </li>
+                    <li>
                         <Link to="">My Profile</Link>
+                    </li>
+                    <li>
                         <Link to="">The DMs</Link>
                     </li>
                 </ul>
             </div>
-            <Route path="/" exact component={Home} />
+            <Route path="/home" exact component={Home} />
             <Route path="/about" component={About} />
         </Router>
     )
 }
+
+export default NavBar;
