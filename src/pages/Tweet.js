@@ -1,17 +1,19 @@
-import '../scss/tweet.scss';
+
 export default function Tweet(props) {
     return (   
-        <form id="tweet_form">
-            <label>Title
+        <div className="tweeter">
+            <form className="tweet_form">
+            {/* <label>
                 <input type="text" name="title" />
-            </label>
-            <label>What's happening?
-                <input type="text" name="content" />
-            </label>
-            <label>Author
+            </label> */}
+                <label>
+                    <input type="text" name="content" placeholder="What's happening?" />
+                </label>
+            {/* <label>
                 <input type="text" name="author" />
-            </label>
-                <input type="submit" value="Submit" />
-        </form>
+            </label> */}
+            </form>
+            <button className="tweet_button" type="submit" value="Submit">Tweet</button>
+        </div>
     )
 }
