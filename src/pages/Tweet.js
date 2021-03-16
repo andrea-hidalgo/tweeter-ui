@@ -1,8 +1,11 @@
 
+
 export default function Tweet(props) {
+    
+    
     return (   
         <div className="tweeter">
-            <form className="tweet_form">
+            <form className="tweet_form" >
             {/* <label>
                 <input type="text" name="title" />
             </label> */}
@@ -12,8 +15,9 @@ export default function Tweet(props) {
             {/* <label>
                 <input type="text" name="author" />
             </label> */}
-            </form>
             <button className="tweet_button" type="submit" value="Submit">Tweet</button>
+            </form>
+            
         </div>
     )
 }

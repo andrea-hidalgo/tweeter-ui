@@ -8,10 +8,7 @@ function App() {
         {/* Marsallis */}
       </nav>
       <section id="tweets-section">
-      
         <Tweet />
-
-
       </section>
       <section id="news-section">
         {/* Ryan */}
