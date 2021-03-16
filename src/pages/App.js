@@ -7,7 +7,7 @@ function App() {
         {/* Marsallis */}
       </nav>
       <section id="tweets-section">
-        <h1>Latest and Greatest Tweets</h1>
+        <h1>Tweeter</h1>
         <form id="tweet_form">
             <label>Title
               <input type="text" name="title" />
