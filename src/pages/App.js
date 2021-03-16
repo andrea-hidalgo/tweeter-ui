@@ -1,4 +1,5 @@
 import '../App.css';
+import Tweet from './Tweet';
 
 function App() {
   return (
@@ -7,20 +8,10 @@ function App() {
         {/* Marsallis */}
       </nav>
       <section id="tweets-section">
-        <h1>Tweeter</h1>
-        <form id="tweet_form">
-            <label>Title
-              <input type="text" name="title" />
-            </label>
-            <label>Content
-              <input type="text" name="content" />
-            </label>
-            <label>Author
-              <input type="text" name="author" />
-            </label>
-            <input type="submit" value="Submit" />
-        </form>
-        {/* Kellie */}
+      
+        <Tweet />
+
+
       </section>
       <section id="news-section">
         {/* Ryan */}
