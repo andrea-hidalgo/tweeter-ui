@@ -5,7 +5,7 @@ export default function TweetFeed(props) {
     useEffect( () => {
         const makeAPICall = async () => {
           try {
-          const res = await fetch('http://localhost:3000/tweets');  
+          const res = await fetch('https://tweeter-api-goat.herokuapp.com/tweets');  
           const data = await res.json();
           setTweets(data.tweets);
           } catch (err) {
