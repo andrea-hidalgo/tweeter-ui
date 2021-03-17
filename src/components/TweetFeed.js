@@ -1,3 +1,4 @@
+import '../css/TweetFeed.css'
 import { useState, useEffect } from 'react';
 export default function TweetFeed(props) {
     

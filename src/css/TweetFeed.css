@@ -1,0 +1,37 @@
+/* TweetFeed.js Form CSS below....Kellie */
+
+#tweets-section {
+    width: 600px;
+  }
+  
+  
+  /* .tweeter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin: auto;
+  }
+  .tweet_form {
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+  }
+  .tweet_form input {
+    border: none;
+  }
+  .text { 
+    cursor: text; 
+  }
+  .tweet_button {
+    height: 30px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: #3399ff; // twitter color 
+    font-weight: 700;
+    color: white;
+    padding: 0;
+    border: none;
+  }
+  */
