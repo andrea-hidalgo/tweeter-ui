@@ -1,3 +1,5 @@
+import '../css/TweetFeed.css'
+
 export default function TweetFeed(props) {
     return (   
         <div className="tweeter">

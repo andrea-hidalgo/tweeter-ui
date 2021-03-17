@@ -1,0 +1,109 @@
+/* NavBar.js Component */
+
+/* .nav-icon {
+  background-image: url(./lego1.jpg);
+  background-position: center;
+  height:40px;
+} */
+nav {
+width:275px;
+}
+
+.navbar-container{
+padding: 12px 0;
+height: 100%;
+letter-spacing: -0.02em;
+display: flex;
+flex-flow: column nowrap;
+border-right: 1px #ebeef0 solid;
+justify-content: flex-start;
+}
+
+.nav-top{
+display: flex;
+flex-flow: column nowrap;
+justify-content: flex-start;
+}
+
+.navbar-container li {
+list-style: none;
+font-weight: 900;
+font-size: 20px;
+height: 50px;
+display: flex;
+flex-wrap: nowrap;
+}
+
+nav a {
+text-decoration: none;
+color: black;
+height: 100%;
+border-radius: 60px;
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+padding:12px;
+}
+
+nav a:hover {
+color: var(--twitter-blue);
+background-color: var(--twitter-hover-blue);
+height: 100%;
+border-radius: 60px;
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+}
+
+.home-list-item span {
+color: var(--twitter-blue);
+}
+
+nav button {
+width: 90%;
+margin: 16px 0;
+background-color: var(--twitter-blue);
+border: none;
+border-radius: 50px;
+min-height:48px;
+color:white;
+font-weight: 900;
+font-size: 15px;
+box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
+}
+
+nav button:hover {
+background-color: rgb(26, 144, 218)
+}
+
+.nav-bottom {
+position: absolute;
+bottom: 12px;
+height:64px;
+width: 275px;
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+}
+
+.nav-profile-item {
+padding: 12px;
+width: 90%;
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+border-radius: 60px;
+}
+
+.nav-profile-item:hover {
+border-radius: 60px;
+background-color: var(--twitter-hover-blue);
+}
+
+.nav-profile-info > :last-child {
+color: #5b7083;
+}
