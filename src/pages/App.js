@@ -1,4 +1,4 @@
-import '../App.css';
+import '../css/App.css';
 import TweetFeed from '../components/TweetFeed';
 import NavBar from '../components/NavBar';
 
@@ -9,10 +9,9 @@ function App() {
         <NavBar/>
       </nav>
       <section id="tweets-section">
-        {/* Kellie - TweetFeed component */}
+        <TweetFeed />
       </section>
       <section id="tweet-show-page-section">
-        <TweetFeed />
       </section>
       <section id="news-section">
         {/* Ryan - NewsFeed component*/}
