@@ -1,11 +1,12 @@
 import '../App.css';
 import TweetFeed from '../components/TweetFeed';
+import NavBar from '../components/NavBar';
 
 function App() {
   return (
     <div className="App">
       <nav>
-        {/* Marsallis - NavBar component*/}
+        <NavBar/>
       </nav>
       <section id="tweets-section">
         {/* Kellie - TweetFeed component */}
