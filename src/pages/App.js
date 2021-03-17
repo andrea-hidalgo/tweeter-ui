@@ -1,4 +1,5 @@
 import '../App.css';
+import TweetFeed from '../components/TweetFeed';
 import NavBar from '../components/NavBar';
 
 function App() {
