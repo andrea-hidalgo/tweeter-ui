@@ -25,6 +25,29 @@ flex-flow: column nowrap;
 justify-content: flex-start;
 }
 
+.twitter-logo-container {
+    border-radius: 60px;
+    height:46px;
+    width: 46px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.twitter-logo {
+    height: 30px;
+    width: 30px;
+    background-image: url(../images/navbar/tweeterlogo3.png);
+    background-size:cover;
+}
+
+.twitter-logo-container:hover {
+    background-color: var(--twitter-hover-blue);
+}
+
 .navbar-container li {
 list-style: none;
 font-weight: 900;
@@ -49,16 +72,52 @@ padding:12px;
 nav a:hover {
 color: var(--twitter-blue);
 background-color: var(--twitter-hover-blue);
-height: 100%;
-border-radius: 60px;
-display: flex;
-flex-flow: row nowrap;
-justify-content: center;
-align-items: center;
+}
+
+nav a span {
+    margin: 0 16px 0 20px;
 }
 
 .home-list-item span {
 color: var(--twitter-blue);
+}
+
+.nav-icon {
+    height:25px;
+    width:25px;
+    background-size: contain;
+}
+
+.home-icon {
+    background-image: url(../images/navbar/home2.png);   
+}
+
+.explore-icon {
+    background-image: url(../images/navbar/explore1.png);
+}
+
+.notifications-icon {
+    background-image: url(../images/navbar/notifications1.png);
+}
+
+.messages-icon {
+    background-image: url(../images/navbar/messages1.png);
+}
+
+.bookmarks-icon {
+    background-image: url(../images/navbar/bookmarks1.png);
+}
+
+.lists-icon {
+    background-image: url(../images/navbar/lists1.png);
+}
+
+.profile-icon {
+    background-image: url(../images/navbar/profile1.png);
+}
+
+.more-icon {
+    background-image: url(../images/navbar/more1.png);
 }
 
 nav button {
@@ -94,7 +153,7 @@ padding: 12px;
 width: 90%;
 display: flex;
 flex-flow: row nowrap;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
 border-radius: 60px;
 }
@@ -102,6 +161,18 @@ border-radius: 60px;
 .nav-profile-item:hover {
 border-radius: 60px;
 background-color: var(--twitter-hover-blue);
+}
+
+.nav-profile-pic {
+    background-image: url(../images/lego1.jpg);
+    background-size: cover;
+    border-radius: 60px;
+    height:40px;
+    width: 40px;
+}
+
+.nav-profile-info {
+    margin: 0 10px;
 }
 
 .nav-profile-info > :last-child {

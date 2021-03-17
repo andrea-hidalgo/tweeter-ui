@@ -5,7 +5,9 @@ function NavBar () {
     return (
             <div className="navbar-container">
                 <div className="nav-top">
-                    <div className="twitter-logo"></div>
+                    <div className="twitter-logo-container">
+                        <div className="twitter-logo"></div>
+                    </div>
                     <ul>
                         <li className="home-list-item">
                             <Link to="/">
