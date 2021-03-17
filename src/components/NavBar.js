@@ -29,8 +29,9 @@ function NavBar () {
                     </li>
                 </ul>
             </div>
-            <Route path="/home" exact component={Home} />
             <Route path="/about" component={About} />
+            <Route path="/" component={Home} />
+            
         </Router>
     )
 }
