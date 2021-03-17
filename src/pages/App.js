@@ -1,7 +1,6 @@
 import '../App.css';
 import TweetFeed from '../components/TweetFeed';
 import NavBar from '../components/NavBar';
-import TweetFeed from '../components/TweetFeed';
 
 function App() {
   return (

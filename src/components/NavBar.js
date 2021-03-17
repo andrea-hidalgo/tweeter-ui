@@ -1,11 +1,8 @@
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-import Home from '../pages/App';
-import About from '../pages/About' ;
+import { Link } from 'react-router-dom';
 
 
 function NavBar () {
     return (
-        <Router>
             <div className="container">
                 <p>Twitter Side Bar</p>
                 <ul>
@@ -16,23 +13,20 @@ function NavBar () {
                         <Link to="/about">About the Goat Squad</Link>
                     </li>
                     <li>
-                        <Link to="">Discover</Link>
+                        <Link to="/">Discover</Link>
                     </li>
                     <li>
-                        <Link to="">Search</Link>
+                        <Link to="/">Search</Link>
                     </li>
                     <li>
-                        <Link to="">My Profile</Link>
+                        <Link to="/">My Profile</Link>
                     </li>
                     <li>
-                        <Link to="">The DMs</Link>
+                        <Link to="/">The DMs</Link>
                     </li>
                 </ul>
             </div>
-            <Route path="/about" component={About} />
-            <Route path="/" component={Home} />
             
-        </Router>
     )
 }
 
