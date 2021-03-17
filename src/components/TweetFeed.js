@@ -1,4 +1,16 @@
+import { useEffect } from 'react';
 export default function TweetFeed(props) {
+    useEffect( () => {
+        const makeAPICall = async () => {
+          try {
+          const res = await fetch('http://localhost:3000/tweets')  
+          const json = await res.json()
+          } catch (err) {
+             console.error(err)
+          }
+        }
+        makeAPICall()
+      }, [])
     return (   
         <div className="tweeter">
             <form className="tweet_form">
@@ -13,6 +25,7 @@ export default function TweetFeed(props) {
             </label> */}
             </form>
             <button className="tweet_button" type="submit" value="Submit">Tweet</button>
+            
         </div>
     )
 }
