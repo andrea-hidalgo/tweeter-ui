@@ -50,7 +50,7 @@ useEffect( () => {
                 <ul>
                     {tweets.map(tweet => {
                         return (          
-                            <div className="tweet-container"> 
+                            <div className="tweet-container" onClick={props.toggleShowPageHide}> 
 
                             <div className="tweet-profile-section">
                                 <img className="tweet-profile-pic" src={tweet.profile}></img>
