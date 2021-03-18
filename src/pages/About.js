@@ -30,7 +30,7 @@ function About() {
   <div className="company"><h1>Our Company</h1>
     <hr />
     <br />
-    <h4>Tweeter is a service committed to diversity in its many forms. Twitter is a community oriented platform that is home to a variety of opinions, people, insights and backgrounds. It was founded by Team Goat in 2021 in the SEIR-Ruth Cohort of General Assembly by  Kellie, Parker, Kevin, Joseph, Andrea, Marsallis, and Ryan.</h4>
+    <h4>Tweeter is a service committed to diversity in its many forms. Tweeter is a community oriented platform that is home to a variety of opinions, people, insights and backgrounds. It was founded by Team Goat in 2021 in the SEIR-Ruth Cohort of General Assembly by  Kellie, Parker, Kevin, Allegra, Joseph, Andrea, Marsallis, and Ryan.</h4>
   </div> 
 <br />
   <br />
@@ -41,7 +41,7 @@ function About() {
     <h4>The purpose of Tweeter is to create a community that contributes their <br /> own unique perspectives and ideas through our consinstently improving technology.</h4>
     <br />
     <h2>Promoting Health</h2>
-    <h4>Healthy conversations are a part of tweeter. Converse about sports, daily <br />happenings or anything that you can think of which can be healthy for users.</h4>
+    <h4>Healthy conversations are a part of Tweeter. Converse about sports, daily <br />happenings or anything that you can think of which can be healthy for users.</h4>
     <br />
     <h2>Being Fun</h2>
     <h4>Tweeter values being fun for its users, and Team Goat values having fun<br /> while creating this project as a group.</h4>
