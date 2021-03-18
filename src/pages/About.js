@@ -82,7 +82,7 @@
       © 2021 Tweeter, Inc.
     </a>
   </div>
-  export default About;
+ 
 </>
 
 export default About;
