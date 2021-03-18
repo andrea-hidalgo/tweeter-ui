@@ -1,6 +1,12 @@
+import '../css/AboutPage.css'
+
+function About() {
+
+  return (
 <>
   <div className="about">
     <h1>About</h1> 
+
   </div>
   <div className="principles"><h2>Our Company</h2></div>
   <h4>Tweeter is a service committed to diversity in its many forms. Twitter is a community oriented platform that is home to a variety of opinions, people, insights and backgrounds. It was founded by Team Goat in 2021 in the SEIR-Ruth Cohort of General Assembly by  Kellie, Parker, Kevin, Joseph, Andrea, Marsallis, and Ryan.</h4>
@@ -84,5 +90,5 @@
   </div>
  
 </>
-
+  )}
 export default About;
