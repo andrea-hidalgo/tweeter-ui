@@ -54,7 +54,7 @@ function About() {
   </div>
   <br />
 
-  <div className="meetteam"><h1>Meet Team Goat</h1>
+  <div className="meetteam"><h1>Meet Team GOAT</h1>
   <hr />
   </div>
   <br />
