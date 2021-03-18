@@ -1,0 +1,130 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 2em;
+} */
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  background-color: #f7f9fa;
+  border-radius: .8em;
+  margin-top: 1em;
+}
+
+.news-item {
+  padding: .4em .8em;
+  border-bottom: 1px solid #ebeef0;
+}
+
+.news-item:last-child { 
+  border-bottom: none; 
+}
+
+.news-item:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.section-head {
+  font-size: 19px;
+  padding: 1em;
+  border-bottom: 1px solid #ebeef0;
+}
+
+.news-item-trending, .news-item-footer {
+  color: #5b7083;
+}
+
+.news-item-trending {
+  font-size: 13px;
+}
+
+.news-item-trending, .news-item-headline, .news-item-body, .news-item-footer {
+    padding-bottom: .3em;
+}
+
+.news-item-headline, .follow-name {
+  color: #0f1419;
+}
+
+.news-item-headline {
+  font-size: 15px;
+}
+
+.news-item-body, .follow-handle {
+  color: #5b7083;
+}
+
+.news-item-footer {
+  font-size: 13px;
+}
+
+.news-img {
+  width: 68px;
+  height: 68px;
+  margin-left: .5em;
+  border-radius: .85em;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.img-text {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.follow {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.follow-text {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+.follow-img {
+  width: 48px;
+  height: 48px;
+  margin-left: .5em;
+  border-radius: 50%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.follow-button-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.follow-name, .follow-handle {
+  font-size: 15px;
+}
+
+.follow-button {
+  border-radius: 9999px;
+  padding: .2em 1.5em;
+  border-color: var(--twitter-blue);
+  color: var(--twitter-blue);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.follow-button:hover {
+  background-color: var(--twitter-hover-blue);
+  cursor: pointer;
+}
