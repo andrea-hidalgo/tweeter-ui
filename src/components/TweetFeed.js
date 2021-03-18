@@ -2,7 +2,7 @@ import '../css/TweetFeed.css'
 
 export default function TweetFeed(props) {
     return (   
-        <div className="tweeter">
+        <div className="tweets-section-container">
             <form className="tweet_form">
             {/* <label>
                 <input type="text" name="title" />
