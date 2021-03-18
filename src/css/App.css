@@ -10,6 +10,7 @@ box-sizing: border-box;
   --twitter-blue: #249FF2;
   --twitter-hover-blue: #E8F5FE;
   --border-grey: 1px #ebeef0 solid;
+  --tweet-highlight-grey: #E9E9E9;
 }
 
 .App {

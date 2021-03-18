@@ -91,6 +91,10 @@ input:focus {
   border-bottom: var(--border-grey);
 }
 
+.tweet-container:hover {
+  background-color: var(--tweet-highlight-grey);
+}
+
 .tweet-icons {
   height: 19px;
   margin-top: 12px;
