@@ -9,14 +9,16 @@ function App() {
       <nav>
         <NavBar/>
       </nav>
-      <section id="tweets-section">
-        <TweetFeed />
-      </section>
-      <section id="tweet-show-page-section">
-      </section>
-      <section id="news-section">
-        <NewsFeed />
-      </section>
+      <div className="app-right">
+        <section id="tweets-section">
+          <TweetFeed />
+        </section>
+        <section id="tweet-show-page-section">
+        </section>
+        <section id="news-section">
+          <NewsFeed />
+        </section>
+      </div>
     </div>
   )
 }

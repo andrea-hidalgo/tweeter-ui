@@ -22,8 +22,32 @@ box-sizing: border-box;
   justify-content: center;
   align-items: stretch;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 .bold {
   font-weight: 900;
+}
+
+nav {
+  width:275px;
+  overflow: none;
+}
+
+.app-right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+#news-section {
+  padding-left: 20px;
+  border-left: var(--border-grey);
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#news-section::-webkit-scrollbar {
+  display: none;
 }
