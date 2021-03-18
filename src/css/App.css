@@ -9,10 +9,11 @@ box-sizing: border-box;
 :root {
   --twitter-blue: #249FF2;
   --twitter-hover-blue: #E8F5FE;
+  --border-grey: 1px #ebeef0 solid;
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   height:100vh;
   width:100vw;
   font-size: 15px;
@@ -20,8 +21,9 @@ box-sizing: border-box;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: stretch;
+  font-size: 15px;
 }
 
 .bold {
-  font-weight: 900px;
+  font-weight: 900;
 }
