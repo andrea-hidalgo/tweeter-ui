@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-import {useState, useEffect} from 'react';
-import '../css/SplashPage.css';
-=======
 import {useState} from 'react';
-
->>>>>>> 59ce4e593e96aa1598f9b2a0749c5e1e2e9750af
 import '../css/App.css';
 import TweetFeed from '../components/TweetFeed';
 import NavBar from '../components/NavBar';
@@ -20,8 +14,6 @@ function App() {
 		setShowPageHidden({ showPageHidden: !showPageHidden.showPageHidden });
 	};
 
-<<<<<<< HEAD
-=======
   const [showTweet, setShowTweet] = useState({});
   const handleTweetShowPage = async (id) => {
     try {
@@ -33,7 +25,6 @@ function App() {
       console.error(err)
     }
   }
->>>>>>> 59ce4e593e96aa1598f9b2a0749c5e1e2e9750af
 
   return (
     <div className="App">
