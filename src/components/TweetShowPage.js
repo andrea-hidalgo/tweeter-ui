@@ -23,6 +23,12 @@ export default function TweetShowPage(props) {
 
             <div className="tweet-information">
                 <div className="tweet-text"> {props.showTweet.content}</div>
+                <div className="tweet-date">8:53 PM &#183; Mar 17, 2021 &#183; Twitter Web App</div>
+                <div className="tweet-stats"> 
+                    <p><span className="bold">2,389</span> <span className="username">Retweets</span></p>
+                    <p><span className="bold">147</span> <span className="username">Quote Tweets</span></p>
+                    <p><span className="bold">54.2K</span> <span className="username">Likes</span></p>
+                </div>
                 <div className="tweet-icons"></div>
             </div>
 

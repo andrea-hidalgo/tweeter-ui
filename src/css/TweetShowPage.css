@@ -57,3 +57,28 @@
 .tweet-show-page-container .tweet-information {
     margin-top: 12px;
 }
+
+.tweet-date {
+    padding:12px 12px 12px 0;
+    color: var(--grey-blue-text);
+    border-bottom: var(--border-grey);
+}
+
+.tweet-stats {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 12px 12px 12px 0;
+    border-bottom: var(--border-grey);
+}
+
+.tweet-stats p:nth-child(2){
+    margin-left: 20px;
+}
+
+.tweet-stats p:nth-child(3){
+    margin-left: 20px;
+}
+
+.tweet-stats p:hover {
+    text-decoration: underline;
+}
