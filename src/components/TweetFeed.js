@@ -5,6 +5,7 @@ export default function TweetFeed(props) {
     
     const [tweets, setTweets] = useState([]);
     const input = useRef(null);
+    
     useEffect( () => {
         const makeAPICall = async () => {
           try {
@@ -32,7 +33,7 @@ export default function TweetFeed(props) {
                 })
             });
             const data = await response.json();
-            setTweets([...tweets, data.tweet]);
+            setTweets([data.tweet,...tweets]);
             input.current.value = '';
         } catch (error) {
             console.error(error);
@@ -42,7 +43,6 @@ export default function TweetFeed(props) {
     return (   
         <>
         <div className="tweeter">
-           
             <form className="tweet_form" onSubmit={handleSubmit}>
                 <label className="label_form">
                     <input type="text" name="content" ref={input} placeholder="What's happening?" />
