@@ -69,14 +69,14 @@ export default function TweetFeed(props) {
                 <ul>
                     {tweets.map((tweet, id) => {
                         return (          
-                            <div className="tweet-container" key={id} onClick={props.toggleShowPageHide}> 
+                            <div className="tweet-container hover-grey" key={id} onClick={()=>{props.handleTweetShowPage(tweet.id)}}> 
 
                             <div className="tweet-profile-section">
-                                <img className="tweet-profile-pic" src={tweet.profile}></img>
+                                <img className="tweet-profile-pic" src={tweet.profile} alt="profile"></img>
                             </div>
 
                             <div className="tweet-information">
-                                <div className="tweet-author"><span className="bold">{tweet.title}</span> @{tweet.author} &#183; 12m </div>
+                                <div className="tweet-author"><span className="bold">{tweet.title}</span> <span className="username">@{tweet.author} &#183; 12m </span></div>
                                 <div className="tweet-text"> {tweet.content}</div>
                                 <div className="tweet-icons"></div>
                             </div>
