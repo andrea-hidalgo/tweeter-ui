@@ -1,10 +1,109 @@
-/* TweetFeed.js Form CSS below....Kellie */
+/* TweetFeed.js CSS*/
 
 #tweets-section {
     width: 600px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
-  
-  
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+#tweets-section::-webkit-scrollbar {
+  display: none;
+}
+
+.home-header {
+  padding: 0 16px;
+  height: 53px;
+  border-bottom: var(--border-grey);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.home-header span {
+  font-size: 20px;
+}
+
+.tweet-form-container {
+  padding: 8px 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  height:120px;
+  border-bottom: var(--border-grey)
+}
+
+.tweet-profile-section {
+  width:48px;
+  height: 100%;
+  margin-right: 12px;
+}
+
+.tweet-profile-pic {
+  background-image: url(../images/lego1.jpg);
+  background-size: cover;
+  border: var(--border-grey);
+  border-radius: 60px;
+  width: 48px;
+  height: 48px;
+}
+
+.tweet_form {
+  width: 100%;
+  text-align: right;
+}
+
+.tweet_form input[type=text]{
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 20px;
+}
+
+input:focus {
+  outline:none;
+}
+
+.tweet_form input[type=submit]{
+  background-color: var(--twitter-blue);
+  border: none;
+  border-radius: 60px;
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 0 15px;
+  height: 40px;
+  width:77px;
+  margin-top:10px;
+}
+
+.tweet-feed-division {
+  height: 10px;
+  background-color: #f7f9fa;
+  border-bottom: var(--border-grey);
+}
+
+.tweet-container {
+  padding: 12px 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: var(--border-grey);
+}
+
+.tweet-container:hover {
+  background-color: var(--tweet-highlight-grey);
+}
+
+.tweet-icons {
+  height: 19px;
+  margin-top: 12px;
+}
+
+
   /* .tweeter {
     display: flex;
     justify-content: center;

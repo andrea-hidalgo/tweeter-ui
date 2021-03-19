@@ -1,14 +1,5 @@
 /* NavBar.js Component */
 
-/* .nav-icon {
-  background-image: url(./lego1.jpg);
-  background-position: center;
-  height:40px;
-} */
-nav {
-width:275px;
-}
-
 .navbar-container{
 padding: 12px 0;
 height: 100%;
