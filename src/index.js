@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-      <Route path={"/main"} component={App}/>
+        <Route path={"/main"} component={App}/>
         <Route path={'/about'} component={About}/>
         <Route path={"/"} component={SplashPage}/>
         
