@@ -7,7 +7,9 @@ import NewsFeed from '../components/NewsFeed';
 import TweetShowPage from '../components/TweetShowPage';
 
 function App() {
+
   const [showPageHidden, setShowPageHidden] = useState({ showPageHidden: true });
+  
 	const toggleShowPageHide = () => {
 		setShowPageHidden({ showPageHidden: !showPageHidden.showPageHidden });
 	};
