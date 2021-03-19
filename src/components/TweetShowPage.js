@@ -29,20 +29,22 @@ export default function TweetShowPage(props) {
                     <p><span className="bold">147</span> <span className="username">Quote Tweets</span></p>
                     <p><span className="bold">54.2K</span> <span className="username">Likes</span></p>
                 </div>
-                <div className="tweet-icons">
-                                            <div className="comment-icon-container">
-                                                <div className="comment-icon"></div>
-                                            </div>
-                                            <div className="retweet-icon-container">
-                                                <div className="retweet-icon"></div>
-                                            </div>
-                                            <div className="like-icon-container">
-                                                <div className="like-icon"></div>
-                                            </div>
-                                            <div className="share-icon-container">
-                                                <div className="share-icon"></div>
-                                            </div>
-                                        </div>
+                <div className="tweet-icons-container">
+                    <div className="tweet-icons">
+                        <div className="comment-icon-container">
+                            <div className="comment-icon"></div>
+                        </div>
+                        <div className="retweet-icon-container">
+                            <div className="retweet-icon"></div>
+                        </div>
+                        <div className="like-icon-container">
+                            <div className="like-icon"></div>
+                        </div>
+                        <div className="share-icon-container">
+                            <div className="share-icon"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             </div>

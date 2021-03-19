@@ -9,8 +9,10 @@ box-sizing: border-box;
 :root {
   --twitter-blue: #249FF2;
   --twitter-hover-blue: #E8F5FE;
+  --twitter-hover-green: #e9fee8;
+  --twitter-hover-red: #fee8e8;
   --border-grey: 1px #ebeef0 solid;
-  --tweet-highlight-grey: #E9E9E9;
+  --tweet-highlight-grey: #f8f8f8;
   --grey-blue-text: #5b7083;
 }
 
