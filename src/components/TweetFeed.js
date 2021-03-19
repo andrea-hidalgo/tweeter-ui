@@ -29,7 +29,10 @@ export default function TweetFeed(props) {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                     content: value
+                     content: value,
+                     author: 'ga_student',
+                     title: 'GA Student',
+                     profile: '/static/media/lego1.09e716c5.jpg'
                 })
             });
             const data = await response.json();
