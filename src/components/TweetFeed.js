@@ -29,7 +29,10 @@ export default function TweetFeed(props) {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                     content: value
+                     content: value,
+                     author: 'ga_student',
+                     title: 'GA Student',
+                     profile: '/static/media/lego1.09e716c5.jpg'
                 })
             });
             const data = await response.json();
@@ -66,7 +69,7 @@ export default function TweetFeed(props) {
                 <ul>
                     {tweets.map((tweet, id) => {
                         return (          
-                            <div className="tweet-container" key={id}> 
+                            <div className="tweet-container" key={id} onClick={props.toggleShowPageHide}> 
 
                             <div className="tweet-profile-section">
                                 <img className="tweet-profile-pic" src={tweet.profile}></img>
