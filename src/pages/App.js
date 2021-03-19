@@ -1,10 +1,11 @@
 import {useState, useEffect} from 'react';
-
+import '../css/SplashPage.css';
 import '../css/App.css';
 import TweetFeed from '../components/TweetFeed';
 import NavBar from '../components/NavBar';
 import NewsFeed from '../components/NewsFeed';
 import TweetShowPage from '../components/TweetShowPage';
+import SplashPage from '../components/SplashPage';
 
 function App() {
 
@@ -14,8 +15,10 @@ function App() {
 		setShowPageHidden({ showPageHidden: !showPageHidden.showPageHidden });
 	};
 
+
   return (
     <div className="App">
+      
       <nav>
         <NavBar/>
       </nav>

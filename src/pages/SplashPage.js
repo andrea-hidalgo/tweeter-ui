@@ -12,9 +12,7 @@ export default function SplashPage() {
             <img class='title-image' src='https://i.imgur.com/jbhj59U.gif'></img>
         </div><br />
         <div class='enter-container'>
-            <img class='enter-image' src='https://i.imgur.com/WfNuem7.gif'
-            //  onClick={handleToggle}
-             ></img>
+            <a href='/main'><img class='enter-image' src='https://i.imgur.com/WfNuem7.gif'></img></a>
             
         </div> 
         </div>
