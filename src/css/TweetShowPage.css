@@ -1,0 +1,7 @@
+#tweet-show-page-section {
+    height: 100vh;
+    width: 600px;
+    background-color: var(--twitter-blue);
+    position: fixed;
+    top: 0;
+}
