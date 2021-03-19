@@ -20,7 +20,7 @@ function About() {
   <br />
   <br />
 <div className="about">
-    <img src='https://i.imgur.com/YKsNYUX.gif' ></img>
+    <img className='aboutImage' src='https://i.imgur.com/YKsNYUX.gif' ></img>
   </div>
 
   <br /> 
@@ -60,7 +60,7 @@ function About() {
   <br />
   <br />
   <div className='kelliepicdiv'>
-  <h2>Kellie's Matteson</h2>
+  <h2>Kellie Matteson</h2>
   <hr></hr>
   <br />
   <img className='kelliepic' src='https://i.imgur.com/F9OeeGQ.jpg'></img>
