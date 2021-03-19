@@ -48,7 +48,9 @@ export default function TweetFeed(props) {
         <div className="tweet-feed-container">
             <div className="home-header">
                 <span className="bold">Home</span>
-                <div className="home-header-icon"></div>
+                <div className="home-header-icon-container">
+                    <div className="home-header-icon"></div>
+                </div>
             </div>
 
             <div className="tweet-form-container">
