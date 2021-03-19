@@ -1,0 +1,212 @@
+h1{
+    font-size: 1.7vw;
+}
+h2 {
+    font-size: 1.3vw;
+}
+h3 {
+    font-size: 1.1vw;
+}
+h4 {
+    font-size: .81vw;
+}
+h5 {
+    font-size: 0.5vw;
+}
+.aboutContainer {
+    background-color: lightblue;
+    height: auto;
+    
+}
+.aboutImage {
+    width: 100%;
+    height: auto;
+}
+.About_Page__background,
+  .background-triangles {
+    width: 1080px;
+    height: 1580px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+  }
+
+.About_Page__background {
+    background-image: url("https://i.imgur.com/JyASc9N.png");
+    margin-left: 10%;
+    z-index: 0;
+    
+  }
+
+.background-triangles {
+    background-image: url("https://i.imgur.com/f8vp5XF.png");
+    
+  }
+.aboutContainer {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+.about {
+    width: auto;
+    height: auto;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    margin-right: 2%;
+}
+.company {
+    width: 40vh;
+    height: auto;
+    max-height: 28vh;
+    max-width: 40vw;
+    margin-right: 40%;
+    margin-top: -1.5vh;
+    background-color:  rgba(49, 132, 228, 0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    z-index: 1;
+    
+}
+.principles {
+    
+        width: 37vw;
+        height: auto;
+        max-height: 50vh;
+        max-width: 45vw;
+        margin-left: 30%;
+        background-color: rgba(49, 132, 228, 0.4);
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+        -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+        -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+        z-index: 1;
+        transform: translateY(-10%);
+}
+.mission{
+    width: 40vh;
+    height: auto;
+    max-width: 40vw;
+    max-height: 20vh;
+    margin-right: 40%;
+    background-color: rgba(49, 132, 228, 0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    transform: translateY(-100px);
+    z-index: 1;
+}
+li {
+    text-align: left;
+}
+.meetteam {
+    width: 40vh;
+    height: 10vh;
+    max-width: 40vw;
+    max-height: 10vh;
+    margin-top: 1.5vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    z-index: 1;
+}
+.kelliepicdiv, .kevinpicdiv, .josephpicdiv, .marsallispicdiv {
+    width: 40vh;
+    height: auto;
+    max-height: 43vh;
+    max-width: 40vw;
+    margin-right: 40%;
+    background-color: rgba(173, 22, 153, 0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    z-index: 1;
+}
+.kelliepic, .parkerpic, .kevinpic, .allegrapic, .josephpic, .andreapic, .marsallispic, .ryanpic {
+    max-width: 15vw;
+    border-radius: 80px;
+    border: black solid 2px;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 10px 0px #000000, -2px -3px 10px 3px rgba(0,0,0,0.37); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 10px 0px #000000, -2px -3px 10px 3px rgba(0,0,0,0.37);
+}
+.kellieInfo, .kevinInfo, .josephInfo, .marsallisInfo {
+    width: 40vh;
+    height: auto;
+    max-width: 40vw;
+    max-height: 27vh;
+    margin-top: -15%;
+    margin-left: 10%;
+    background-color: rgba(173, 22, 153, 0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    z-index: 1;
+}
+.parkerpicdiv, .allegrapicdiv, .andreapicdiv, .ryanpicdiv {
+    width: 40vh;
+    height: auto;
+    max-height: 43vh;
+    max-width: 40vw;
+    margin-left: 40%;
+    background-color: rgba(49, 132, 228, 0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    z-index: 1;
+}
+.parkerInfo, .allegraInfo, .andreaInfo, .ryanInfo {
+    width: 40vh;
+    height: auto;
+    max-width: 40vw;
+    max-height: 27vh;
+    margin-top: -15%;
+    margin-right: 10%;
+    background-color: rgba(49, 132, 228, 0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -webkit-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    -moz-box-shadow: 1px 1px 28px 10px rgb(121, 121, 121);
+    z-index: 1;
+}
+/* .parkerInfo {
+    max-height: 21vh;
+}
+.kevinInfo, .allegraInfo {
+    height: 29vh;
+    max-height: 29vh;
+}
+.andreaInfo, .josephInfo {
+    max-height: 14vh;
+}
+.marsallisInfo {
+    height: 32vh;
+    max-height: 32vh;
+}
+.ryanInfo {
+    height: 18vh;
+    max-height: 18vh;
+} */
