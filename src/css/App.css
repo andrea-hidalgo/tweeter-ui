@@ -9,10 +9,12 @@ box-sizing: border-box;
 :root {
   --twitter-blue: #249FF2;
   --twitter-hover-blue: #E8F5FE;
+  --border-grey: 1px #ebeef0 solid;
+  --tweet-highlight-grey: #E9E9E9;
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   height:100vh;
   width:100vw;
   font-size: 15px;
@@ -20,8 +22,33 @@ box-sizing: border-box;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: stretch;
+  font-size: 15px;
+  overflow-x: hidden;
 }
 
 .bold {
-  font-weight: 900px;
+  font-weight: 900;
+}
+
+nav {
+  width:275px;
+  overflow: none;
+}
+
+.app-right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+#news-section {
+  padding-left: 20px;
+  border-left: var(--border-grey);
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#news-section::-webkit-scrollbar {
+  display: none;
 }

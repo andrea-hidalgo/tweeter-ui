@@ -40,30 +40,51 @@ export default function TweetFeed(props) {
         }
     };
        
-    return (   
-        <>
-        <div className="tweeter">
-            <form className="tweet_form" onSubmit={handleSubmit}>
-                <label className="label_form">
-                    <input type="text" name="content" ref={input} placeholder="What's happening?" />
-                </label>
-            <input className="tweet_button" type="submit" value="Tweet" />
-            </form>
+ return (   
+        
+        <div className="tweet-feed-container">
+            <div className="home-header">
+                <span className="bold">Home</span>
+                <div className="home-header-icon"></div>
+            </div>
+
+            <div className="tweet-form-container">
+                <div className="tweet-profile-section">
+                    <div className="tweet-profile-pic"></div>
+                </div>
+                <form className="tweet_form" onSubmit={handleSubmit}>
+                        <label className="label_form">
+                            <input type="text" name="content" ref={input} placeholder="What's happening?" />
+                        </label>
+                    <input className="tweet_button" type="submit" value="Tweet"></input>
+                </form>
+            </div>
+            
+            <div className="tweet-feed-division"></div>
+
             <div className="tweet_feed">
                 <ul>
                     {tweets.map((tweet, id) => {
                         return (          
-                            <li key={id}>
-                                {tweet.author}
-                                {tweet.title}
-                                {tweet.content}
-                            </li>
-                        )
+                            <div className="tweet-container" key={id}> 
+
+                            <div className="tweet-profile-section">
+                                <img className="tweet-profile-pic" src={tweet.profile}></img>
+                            </div>
+
+                            <div className="tweet-information">
+                                <div className="tweet-author"><span className="bold">{tweet.title}</span> @{tweet.author} &#183; 12m </div>
+                                <div className="tweet-text"> {tweet.content}</div>
+                                <div className="tweet-icons"></div>
+                            </div>
+
+                            </div>
+
+                            )
                     })}      
                 </ul>
             </div>
             
         </div>
-        </>
     )
 }

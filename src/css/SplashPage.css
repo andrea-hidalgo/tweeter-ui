@@ -1,0 +1,26 @@
+.page-container {
+    display: grid;
+    place-items: center;
+  }
+  .image-container {
+    grid-column: 1;
+    grid-row: 1;
+    display: inline-grid;
+    place-items: center;
+    justify-content: center; 
+    margin-top: 5%;  
+  }
+  .enter-container {
+    grid-column: 1;
+    grid-row: 2;
+    display: inline-grid;
+    place-items: center;
+    
+  }
+  .title-image {
+    max-height: 70vh;
+  }
+  .enter-image {
+    max-height: 20vh;
+    margin-left: -12%;
+  }
