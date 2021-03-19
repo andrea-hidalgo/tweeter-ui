@@ -39,10 +39,12 @@
 .tweet-show-page-container .tweet-profile-section {
     display: flex;
     flex-flow: row nowrap;
+    width:100%;
 }
 
 .tweet-show-page-container .tweet-author {
     margin-left: 10px;
+    width: 100%;
 }
 
 .username {
@@ -81,4 +83,14 @@
 
 .tweet-stats p:hover {
     text-decoration: underline;
+}
+
+.tweet-show-page-container .tweet-icons {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.tweet-show-page-container .tweet-icons div {
+    height:20px;
+    width:20px;
 }

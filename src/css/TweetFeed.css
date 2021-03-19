@@ -89,6 +89,7 @@ input:focus {
 
 .tweet-container {
   padding: 12px 16px;
+  width: 100%;
   display: flex;
   flex-flow: row nowrap;
   border-bottom: var(--border-grey);
@@ -98,7 +99,39 @@ input:focus {
   background-color: var(--tweet-highlight-grey);
 }
 
+.tweet-information {
+  width: 100%;
+}
+
+.tweet-icons-container {
+  width: 100%;
+}
+
 .tweet-icons {
-  height: 19px;
   margin-top: 12px;
+  width: 80%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.tweet-icons div {
+  background-size: cover;
+  height: 15px;
+  width: 15px;
+}
+
+.comment-icon {
+  background-image: url(../images/tweetfeed/chat-icon.png);
+}
+
+.retweet-icon {
+  background-image: url(../images/tweetfeed/retweet-icon.png);
+}
+
+.like-icon {
+  background-image: url(../images/tweetfeed/heart-icon.png);
+}
+
+.share-icon {
+  background-image: url(../images/tweetfeed/share-icon.png);
 }
