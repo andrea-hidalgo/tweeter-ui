@@ -10,7 +10,7 @@ function NavBar () {
                     </div>
                     <ul>
                         <li className="home-list-item">
-                            <Link to="/">
+                            <Link to="/main">
                                 <div className="nav-icon home-icon"></div>
                                 <span>Home</span>
                             </Link>
@@ -18,41 +18,41 @@ function NavBar () {
                         <li>
                             <Link to="/about">
                                 <div className="nav-icon explore-icon"></div>
-                                <span>Explore</span>
+                                <span>GOAT squad</span>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/">
+                            <Link to="/main">
                                 <div className="nav-icon notifications-icon"></div>
                                 <span>Notifications</span>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/">
+                            <Link to="/main">
                                 <div className="nav-icon messages-icon"></div>
                                 <span>Messages</span>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/">
+                            <Link to="/main">
                                 <div className="nav-icon bookmarks-icon"></div>
                                 <span>Bookmarks</span>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/">
+                            <Link to="/main">
                                 <div className="nav-icon lists-icon"></div>
                                 <span>Lists</span>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/">
+                            <Link to="/main">
                                 <div className="nav-icon profile-icon"></div>
                                 <span>Profile</span>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/">
+                            <Link to="/main">
                                 <div className="nav-icon more-icon"></div>
                                 <span>More</span>
                             </Link>

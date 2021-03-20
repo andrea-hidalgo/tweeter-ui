@@ -1,0 +1,46 @@
+.splash-page-container {
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position: absolute;     
+    width: 100% !important;     
+    height: 100% !important;
+  }
+
+  .splash-page {
+      z-index: 100;
+
+      background-color: white;
+    
+    }
+    .splash-page-hidden {
+      z-index: -100;
+      position: absolute;     
+      width: 100% !important;     
+      height: 100% !important;
+      background-color: white;
+      visibility: hidden;
+    }
+  .image-container {
+    grid-column: 1;
+    grid-row: 1;
+    display: inline-grid;
+    place-items: center;
+    justify-content: center; 
+    
+  }
+  .enter-container {
+    grid-column: 1;
+    grid-row: 2;
+    display: inline-grid;
+    place-items: center;
+    margin-left: 35%;
+    
+  }
+  .title-image {
+    max-height: 70vh;
+  }
+  .enter-image {
+    max-height: 20vh;
+    margin-left: -12%;
+  }

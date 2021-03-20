@@ -1,37 +1,186 @@
-/* TweetFeed.js Form CSS below....Kellie */
+/* TweetFeed.js CSS*/
 
 #tweets-section {
     width: 600px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
-  
-  
-  /* .tweeter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    margin: auto;
-  }
-  .tweet_form {
-    padding-top: 30px;
-    justify-content: center;
-    display: flex;
-  }
-  .tweet_form input {
-    border: none;
-  }
-  .text { 
-    cursor: text; 
-  }
-  .tweet_button {
-    height: 30px;
-    width: 50px;
-    display: inline-block;
-    border-radius: 12px;
-    background-color: #3399ff; // twitter color 
-    font-weight: 700;
-    color: white;
-    padding: 0;
-    border: none;
-  }
-  */
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+#tweets-section::-webkit-scrollbar {
+  display: none;
+}
+
+.home-header {
+  padding: 0 16px;
+  height: 53px;
+  border-bottom: var(--border-grey);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.home-header span {
+  font-size: 20px;
+}
+
+.home-header-icon-container {
+  height: 80%;
+  width: 40px;
+  display:flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.home-header-icon-container:hover {
+  background-color: var(--twitter-hover-blue);
+}
+
+.home-header-icon {
+  background-image: url(../images/tweetfeed/star-icon.png);
+  background-size: cover;
+  height: 22px;
+  width: 22px;
+}
+
+.tweet-form-container {
+  padding: 8px 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  height:120px;
+  border-bottom: var(--border-grey)
+}
+
+.tweet-profile-section {
+  width:48px;
+  height: 100%;
+  margin-right: 12px;
+}
+
+.tweet-profile-pic {
+  background-image: url(../images/lego1.jpg);
+  background-size: cover;
+  border: var(--border-grey);
+  border-radius: 60px;
+  width: 48px;
+  height: 48px;
+}
+
+.tweet_form {
+  width: 100%;
+  text-align: right;
+}
+
+.tweet_form input[type=text]{
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 20px;
+}
+
+input:focus {
+  outline:none;
+}
+
+.tweet_form input[type=submit]{
+  background-color: var(--twitter-blue);
+  border: none;
+  border-radius: 60px;
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 0 15px;
+  height: 40px;
+  width:77px;
+  margin-top:10px;
+}
+
+.tweet-feed-division {
+  height: 10px;
+  background-color: #f7f9fa;
+  border-bottom: var(--border-grey);
+}
+
+.tweet-container {
+  padding: 12px 16px 5px 12px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: var(--border-grey);
+}
+
+.hover-grey:hover {
+  background-color: var(--tweet-highlight-grey);
+}
+
+.tweet-information {
+  width: 100%;
+}
+
+.tweet-icons-container {
+  width: 100%;
+  height: 35px;
+  margin-left: -10px;
+}
+
+.tweet-icons {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.tweet-icons > div {
+  height: 100%;
+  width: 35px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+}
+
+.tweet-icons div > div {
+  height: 15px;
+  width: 15px;
+  background-size: cover;
+}
+
+.comment-icon-container:hover {
+  background-color: var(--twitter-hover-blue)
+}
+
+.retweet-icon-container:hover {
+  background-color: var(--twitter-hover-green);
+}
+
+.like-icon-container:hover {
+  background-color: var(--twitter-hover-red);
+}
+
+.share-icon-container:hover {
+  background-color: var(--twitter-hover-blue);
+}
+
+.comment-icon {
+  background-image: url(../images/tweetfeed/chat-icon.png);
+}
+
+.retweet-icon {
+  background-image: url(../images/tweetfeed/retweet-icon.png);
+}
+
+.like-icon {
+  background-image: url(../images/tweetfeed/heart-icon.png);
+}
+
+.share-icon {
+  background-image: url(../images/tweetfeed/share-icon.png);
+}
