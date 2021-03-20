@@ -145,7 +145,8 @@ function About() {
   <img className='andreapic' src='https://i.imgur.com/FL9wJTq.jpg'></img>
   </div>
   <div className='andreaInfo'>
-  <h4>Andrea is a Software Engineer Fellow with a strong background in technical customer service.</h4>
+  <h4>
+Andrea is a software engineer with a strong background in technical customer support. She is dedicated to providing web experiences that are both beautiful and functional. She brings her passion for learning and collaborating to every project, and looks forward to finding a solution to every problem her clients face.</h4>
   </div>
   <br /> 
   <br /> 
