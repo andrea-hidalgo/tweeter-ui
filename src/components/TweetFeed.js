@@ -61,7 +61,28 @@ export default function TweetFeed(props) {
                         <label className="label_form">
                             <input type="text" name="content" ref={input} placeholder="What's happening?" />
                         </label>
-                    <input className="tweet_button" type="submit" value="Tweet"></input>
+                    <div className="tweet-form-bottom">
+                        <div className="tweet-form-icon-container">
+                            <div className="tweet-form-icons">
+                                <div className="media-icon-container">
+                                    <div className="media-icon"></div>
+                                </div>
+                                <div className="gif-icon-container">
+                                    <div className="gif-icon"></div>
+                                </div>
+                                <div className="poll-icon-container">
+                                    <div className="poll-icon"></div>
+                                </div>
+                                <div className="emoji-icon-container">
+                                    <div className="emoji-icon"></div>
+                                </div>
+                                <div className="schedule-icon-container">
+                                    <div className="schedule-icon"></div>
+                                </div>
+                            </div>    
+                        </div> 
+                        <input className="tweet_button" type="submit" value="Tweet"></input>
+                    </div>
                 </form>
             </div>
             
