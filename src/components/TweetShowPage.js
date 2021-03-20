@@ -6,8 +6,10 @@ export default function TweetShowPage(props) {
     return (
         <div className="tweet-show-page-container">
             <div className="tweet-header">
-                <div className="back-arrow" onClick={props.toggleShowPageHide}>
-                    <p>back</p>
+                <div className="back-arrow-container" onClick={props.toggleShowPageHide}>
+                    <div className="back-icon-container">
+                        <div className="back-arrow-icon"></div>
+                    </div>
                 </div>
                 <span className="bold">Tweet</span>
             </div>
