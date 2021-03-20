@@ -194,6 +194,11 @@ function About() {
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <div className="footer">
     <div className="footer-item">
