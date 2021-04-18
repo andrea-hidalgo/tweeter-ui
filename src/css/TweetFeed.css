@@ -51,6 +51,12 @@
   width: 22px;
 }
 
+.tweet_form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
 .tweet-form-container {
   padding: 8px 16px;
   display: flex;
@@ -79,9 +85,69 @@
   text-align: right;
 }
 
+.tweet-form-bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items:flex-end;
+}
+
+.tweet-form-icon-container {
+  height: 100%;
+  width: 100%;
+  margin-left: -10px;
+}
+
+.tweet-form-icons {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweet-form-icons > div {
+  height: 100%;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+}
+
+.tweet-form-icons > div:hover {
+  background-color: var(--twitter-hover-blue);
+}
+
+.tweet-form-icons div > div {
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+}
+
+.media-icon {
+  background-image: url(../images/tweetfeed/image-icon.png);
+}
+
+.gif-icon {
+  background-image: url(../images/tweetfeed/gif-icon.png);
+}
+
+.poll-icon {
+  background-image: url(../images/tweetfeed/bar-chart-icon.png);
+}
+
+.emoji-icon {
+  background-image: url(../images/tweetfeed/smile-icon.png);
+}
+
+.schedule-icon {
+  background-image: url(../images/tweetfeed/calendar-icon.png);
+}
+
 .tweet_form input[type=text]{
   border: none;
-  padding: 12px;
+  padding: 12px 12px 12px 0;
   width: 100%;
   font-size: 20px;
 }
@@ -100,7 +166,9 @@ input:focus {
   padding: 0 15px;
   height: 40px;
   width:77px;
-  margin-top:10px;
+}
+.tweet_form input[type=submit]:hover {
+  background-color:rgb(26, 144, 218)
 }
 
 .tweet-feed-division {
