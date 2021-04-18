@@ -31,13 +31,13 @@ function App() {
   return (
     <div className="App">
       <Row>
-      <Col className='d-lg-none d-md-none d-sm-none d-xs-none'>
+      <Col className='d-none d-lg-block'>
       <nav>
         <NavBar/>
       </nav>
       </Col>
       <div className="app-right">
-      <Col md='auto'>
+      <Col md='auto' className='d-block'>
         <section id="tweets-section">
           <TweetFeed handleTweetShowPage={handleTweetShowPage}/>
         </section>
@@ -53,7 +53,7 @@ function App() {
 					''
 				)}
         </Col> 
-        <Col className='d-lg-block d-md-none d-sm-none d-xs-none'>
+        <Col className='d-none d-xl-block'>
         <section id="news-section">
           <NewsFeed />
         </section>
