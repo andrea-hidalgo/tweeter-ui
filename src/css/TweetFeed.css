@@ -1,7 +1,8 @@
 /* TweetFeed.js CSS*/
 
 #tweets-section {
-    width: 600px;
+    width: auto;
+    max-width: 600px;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
